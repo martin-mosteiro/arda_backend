@@ -697,7 +697,7 @@
 			"question": "How would you prefer it to be?",
 			"question_id": "q_thermal",
 			"response_options": [{
-					"text": "Colder than usual",
+					"text": "Cooler",
 					"icon": "snowflake",
 					"icon_background_color": "#2891D9",
 					"use_sf_symbols": false,
