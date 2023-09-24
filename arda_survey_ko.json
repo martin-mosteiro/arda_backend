@@ -72,7 +72,7 @@
 			"question_id": "q_activity_outdoors_ko",
 			"response_options": [{
 					"text": "어디론가 걸어간다",
-					"icon": "person_walking2",
+					"icon": "person_walking_2",
 					"icon_background_color": "#F1A62E",
 					"use_sf_symbols": false,
 					"sf_symbols_color": "#000000",
@@ -509,7 +509,7 @@
 				},
 				{
 					"text": "네, 공부",
-					"icon": "cutlery",
+					"icon": "person_studying",
 					"icon_background_color": "#F1A62E",
 					"use_sf_symbols": false,
 					"sf_symbols_color": "#000000",
@@ -517,7 +517,7 @@
 				},
 				{
 					"text": "네, 식사",
-					"icon": "person_head_relax",
+					"icon": "cutlery",
 					"icon_background_color": "#F1A62E",
 					"use_sf_symbols": false,
 					"sf_symbols_color": "#000000",
