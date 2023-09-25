@@ -285,6 +285,43 @@
 			]
 		},
 		{
+			"question": "Where?",
+			"question_id": "q_location_other",
+			"response_options": [{
+					"text": "Home",
+					"icon": "building_house",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other"
+				},
+				{
+					"text": "On campus",
+					"icon": "building_university",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other"
+				},
+				{
+					"text": "Off campus",
+					"icon": "city_seoul",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other"
+				},
+				{
+					"text": "Other",
+					"icon": "text_other",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other"
+				}
+			]
+		},
+		{
 			"question": "Did you change your activity in the last hour?",
 			"question_id": "q_activity_change_working",
 			"response_options": [{
@@ -465,6 +502,67 @@
 				{
 					"text": "Yes, having a meal",
 					"icon": "cutlery",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				},
+				{
+					"text": "Yes, outdoors",
+					"icon": "space_outdoor",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				},
+				{
+					"text": "Other",
+					"icon": "text_other",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				},
+				{
+					"text": "No",
+					"icon": "text_x_2",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				}
+			]
+		},
+		{
+			"question": "Did you change your activity in the last hour?",
+			"question_id": "q_activity_change_other",
+			"response_options": [{
+					"text": "Yes, working",
+					"icon": "person_laptop",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				},
+				{
+					"text": "Yes, studying",
+					"icon": "person_studying",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				},
+				{
+					"text": "Yes, having a meal",
+					"icon": "cutlery",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change"
+				},
+				{
+					"text": "Yes, leisure",
+					"icon": "person_head_relax",
 					"icon_background_color": "#F1A62E",
 					"use_sf_symbols": false,
 					"sf_symbols_color": "#000000",

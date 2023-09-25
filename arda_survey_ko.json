@@ -285,6 +285,43 @@
 			]
 		},
 		{
+			"question": "어디에 계십니까?",
+			"question_id": "q_location_other_ko",
+			"response_options": [{
+					"text": "집",
+					"icon": "building_house",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other_ko"
+				},
+				{
+					"text": "캠퍼스",
+					"icon": "building_university",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other_ko"
+				},
+				{
+					"text": "캠퍼스 밖",
+					"icon": "city_seoul",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other_ko"
+				},
+				{
+					"text": "기타",
+					"icon": "text_other",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_activity_change_other_ko"
+				}
+			]
+		},
+		{
 			"question": "지난 한 시간 동안 다른 활동을 하셨습니까?",
 			"question_id": "q_activity_change_working_ko",
 			"response_options": [{
@@ -465,6 +502,67 @@
 				{
 					"text": "네, 식사",
 					"icon": "cutlery",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				},
+				{
+					"text": "네, 야외 활동",
+					"icon": "space_outdoor",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				},
+				{
+					"text": "네, 기타",
+					"icon": "text_other",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				},
+				{
+					"text": "아니요",
+					"icon": "text_x_2",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				}
+			]
+		},
+		{
+			"question": "지난 한 시간 동안 다른 활동을 하셨습니까?",
+			"question_id": "q_activity_change_other_ko",
+			"response_options": [{
+					"text": "네, 근무",
+					"icon": "person_laptop",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				},
+				{
+					"text": "네, 공부",
+					"icon": "person_studying",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				},
+				{
+					"text": "네, 식사",
+					"icon": "cutlery",
+					"icon_background_color": "#F1A62E",
+					"use_sf_symbols": false,
+					"sf_symbols_color": "#000000",
+					"next_question_id": "q_location_change_ko"
+				},
+				{
+					"text": "네, 여가",
+					"icon": "person_head_relax",
 					"icon_background_color": "#F1A62E",
 					"use_sf_symbols": false,
 					"sf_symbols_color": "#000000",
